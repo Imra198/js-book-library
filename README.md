@@ -23,9 +23,6 @@ The project uses vanilla JavaScript to create and insert HTML elements once the 
 ├── script.js
 └── style.css
 
-pgsql
-Copy code
-
 ## How It Works
 - The HTML provides the page structure and container
 - JavaScript waits for the DOM to load, then loops through an array of book titles
