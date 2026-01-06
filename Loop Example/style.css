@@ -1,0 +1,33 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+
+}
+#book-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+#book-list li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#book-list li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+#book-list li:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+
+}
